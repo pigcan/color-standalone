@@ -1,0 +1,31 @@
+{
+  "name": "color-standalone",
+  "version": "0.11.3",
+  "description": "Color conversion and manipulation with CSS string support",
+  "keywords": [
+    "color",
+    "colour",
+    "css"
+  ],
+  "authors": [
+    "Heather Arthur <fayearthur@gmail.com>",
+    "Maxime Thirouin",
+    "Josh Junon"
+  ],
+  "license": "MIT",
+  "repository": "afc163/color-standalone",
+  "main": "color.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublish": "npm run dist",
+    "dist": "webpack"
+  },
+  "dependencies": {
+    "color": "^0.11.3"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
