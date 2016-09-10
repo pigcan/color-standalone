@@ -1,6 +1,6 @@
 {
   "name": "color-standalone",
-  "version": "0.11.5",
+  "version": "0.11.6",
   "description": "Color conversion and manipulation with CSS string support",
   "keywords": [
     "color",
@@ -15,9 +15,6 @@
   "license": "MIT",
   "repository": "afc163/color-standalone",
   "main": "color.js",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "prepublish": "npm run dist",
     "dist": "webpack"
