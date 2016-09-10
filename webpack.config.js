@@ -1,7 +1,7 @@
 module.exports = {
   entry: './index.js',
   output: {
-    library: 'color',
+    library: 'Color',
     libraryTarget: 'umd',
     path: __dirname,
     filename: "color.js"
