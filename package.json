@@ -1,5 +1,5 @@
 {
-  "name": "color-standalone",
+  "name": "color-standalone-fix",
   "version": "0.11.6",
   "description": "Color conversion and manipulation with CSS string support",
   "keywords": [
@@ -23,6 +23,8 @@
     "color": "^0.11.3"
   },
   "devDependencies": {
-    "webpack": "^1.13.2"
-  }
+    "webpack": "^4.x",
+    "webpack-cli": "^3.3.11"
+  },
+  "unpkg": "./color.js"
 }
